@@ -10,8 +10,8 @@
 	</parent>
 
 	<groupId>com.ivanas</groupId>
-	<artifactId>sample-kafka-producer</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>sample-reactive-kafka-producer</artifactId>
+	<version>0.0.1</version>
 
 	<name>sample-kafka-producer</name>
 	<description>Send JSON from file to Kafka topic</description>
