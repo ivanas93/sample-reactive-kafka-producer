@@ -3,6 +3,7 @@
 ## Quick start 
 
 1 - (Optional) Modify the Netty port in the [application.yml](src/main/resources/application.yml) file.
+
 2 - Modify Kafka bootstrap server url and kafka topic in file [application-standalone.yml](src/main/resources/application-standalone.yml)
 ```yaml
 spring:
