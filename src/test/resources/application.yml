@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: sample-kafka-producer
+  profiles:
+    default: standalone
+
+server:
+  port: 9090

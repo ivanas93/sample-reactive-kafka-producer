@@ -21,6 +21,9 @@
 		<lombok.version>1.18.20</lombok.version>
 		<reactor.kafka.version>1.2.2.RELEASE</reactor.kafka.version>
 		<blockhound.version>1.0.6.RELEASE</blockhound.version>
+		<junit-jupiter-engine.version>5.7.2</junit-jupiter-engine.version>
+		<awaitility.version>3.0.0</awaitility.version>
+		<assertj-core.version>3.20.2</assertj-core.version>
 	</properties>
 
 	<dependencies>
@@ -47,7 +50,18 @@
 			<artifactId>blockhound</artifactId>
 			<version>${blockhound.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.assertj</groupId>
+			<artifactId>assertj-core</artifactId>
+			<version>${assertj-core.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.awaitility</groupId>
+			<artifactId>awaitility</artifactId>
+			<version>${awaitility.version}</version>
+			<scope>test</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
