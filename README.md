@@ -1,4 +1,4 @@
-#sample-reactive-kafka-producer
+# sample-reactive-kafka-producer
 
 ## Quick start 
 
